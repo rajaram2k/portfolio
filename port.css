@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(45deg, #000000, #00ffc8,#2a967e,#00ffc8);
+    padding: 20px;
+    /* Adding box shadow for 3D effect */
+    box-shadow: 0 0 50px rgb(44, 230, 255), inset 0 0 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #9effd2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added for z-index positioning */
+  }
+  
+  .container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    pointer-events: none; /* So it doesn't interfere with content */
+  }
+  
+  .header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .objective {
+    margin-bottom: 20px;
+  }
+  
+  .technical-skills,
+  .soft-skills,
+  .internship,
+  .projects,
+  .academic-qualification {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list,
+  .languages-known {
+    margin-left: 20px;
+  }
+  
+  .projects-list,
+  .academic-qualification p {
+    margin-left: 40px;
+  }
+  
+  .declaration {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  .header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .info h1 {
+    margin: 0 0 5px;
+  }
+  
+  .info p {
+    margin: 0;
+  }
+  .languages-known  {
+    text-align: left;
+  }
+  .links-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.links-container a {
+  margin-left: 10px;
+}
+.links-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }     
+  
+  .links-container a {
+    margin-left: 10px;
+  }
+  .links-container a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #41ffef;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .links-container a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+  }
+    
